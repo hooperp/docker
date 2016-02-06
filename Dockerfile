@@ -14,11 +14,5 @@ RUN chmod g+rwx /opt/tomcat/conf
 RUN chmod g+r /opt/tomcat/conf/*
 RUN chown -R tomcat /opt/tomcat/webapps/ /opt/tomcat/work/ /opt/tomcat/temp/ /opt/tomcat/logs/
 
-ENTRYPOINT /op[t/tomcat
-
-RUN /opt/tomcat/bin/startup.sh
-
-RUN export PS1=$(hostname)-PaulHooper
-
 RUN echo "All done"
 
