@@ -1,1 +1,1 @@
-docker build -t phooper/centos-testing .
+docker build -t phooper/centos-tomcat .
