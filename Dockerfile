@@ -1,4 +1,4 @@
-FROM centos:6
+FROM phooper0001/centos-tomcat
 RUN yum install java-1.8.0-openjdk-devel -y
 RUN groupadd tomcat 
 RUN useradd -M -s /bin/nologin -g tomcat -d /opt/tomcat tomcat
